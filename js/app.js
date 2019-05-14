@@ -40,7 +40,7 @@ function loadNames(e) {
                
                // Insert into the HTML
 
-               let html = '<h2>Generated Names</h2>';
+               let html = '<h5>Generated Names</h5>';
                html += '<ul class="list">';
                names.forEach(function(name){
                     html += `
